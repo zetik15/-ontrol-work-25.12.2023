@@ -9,5 +9,9 @@ for (int i = 0; i < Array.Length; i++)
         {
             Console.Write($"{Array[i]}, ");
         }
+        else
+        {
+            Console.Write($"{Array[i]}]");
+        }
     }
 }
